@@ -29,6 +29,6 @@
   display: none;
 }
 .tie-background {
-  background-image: url("/public/ties.png");
+  background-image: url("../public/ties.png");
   background-repeat: repeat;
 }
