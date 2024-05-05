@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="md:border border-[#0F0F0F] pt-[8px] px-[6px] pb-[70px] md:pb-[8px] overflow-hidden">
       <Image src={Banner} alt="banner" className="mb-9 h-[159px]" />
-      <h5 className="font-bold text-xl md:text-[28px] md:mb-[52px] mx-8">
+      <h5 className="font-bold text-xl md:text-[28px] md:mb-[52px] mx-2 md:mx-8">
         Welcome Back !
       </h5>
       <div>
@@ -21,7 +21,7 @@ export default function Home() {
             See more
           </Link>
         </div>
-        <div className="flex items-center overflow-x-auto space-x-4 hidden-scroll mb-12 pl-8">
+        <div className="flex items-center overflow-x-auto space-x-4 hidden-scroll mb-12 pl-2 md:pl-8">
           <MusicCard
             img={MadeInNaija}
             title="Daily Vibes 1"
@@ -108,7 +108,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <h5 className="font-bold text-sm md:text-[28px] md:mb-6 mx-8">
+      <h5 className="font-bold text-sm md:text-[28px] md:mb-6 mx-2 md:mx-8">
         Cheers to the Weekend
       </h5>
       <div>
@@ -120,7 +120,7 @@ export default function Home() {
             See more
           </Link>
         </div>
-        <div className="flex items-center overflow-x-auto space-x-4 hidden-scroll mb-12 pl-8">
+        <div className="flex items-center overflow-x-auto space-x-4 hidden-scroll mb-12 pl-2 md:pl-8">
           <MusicCard
             img={MadeInNaija}
             title="Daily Vibes 1"
