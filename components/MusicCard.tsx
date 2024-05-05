@@ -26,7 +26,7 @@ const MusicCard = ({
         <p className="text-[10px] font-medium">
           {artists.map((artist, index) => {
             return (
-              <span>
+              <span key={index}>
                 {artist}
                 {index + 1 !== artists.length && ", "}
               </span>
