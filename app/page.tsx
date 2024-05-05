@@ -7,18 +7,20 @@ import Link from "next/link";
 import MusicCard from "@/components/MusicCard";
 export default function Home() {
   return (
-    <main className="md:border border-[#0F0F0F] py-[8px] px-[6px] overflow-hidden">
+    <main className="md:border border-[#0F0F0F] pt-[8px] px-[6px] pb-[70px] md:pb-[8px] overflow-hidden">
       <Image src={Banner} alt="banner" className="mb-9 h-[159px]" />
       <h5 className="font-bold text-xl md:text-[28px] md:mb-[52px] mx-8">
         Welcome Back !
       </h5>
       <div>
-        <Link
-          href=""
-          className="w-full flex md:hidden justify-end text-xs font-normal mb-[19px] text-[#D9D9D9E5]"
-        >
-          See more
-        </Link>
+        <div className="pr-4">
+          <Link
+            href=""
+            className="w-full flex md:hidden justify-end text-xs font-normal mb-[19px] text-[#D9D9D9E5] "
+          >
+            See more
+          </Link>
+        </div>
         <div className="flex items-center overflow-x-auto space-x-4 hidden-scroll mb-12 pl-8">
           <MusicCard
             img={MadeInNaija}
@@ -110,12 +112,14 @@ export default function Home() {
         Cheers to the Weekend
       </h5>
       <div>
-        <Link
-          href=""
-          className="w-full flex md:hidden justify-end text-xs font-normal mb-[19px] text-[#D9D9D9E5]"
-        >
-          See more
-        </Link>
+        <div className="pr-4">
+          <Link
+            href=""
+            className="w-full flex md:hidden justify-end text-xs font-normal mb-[19px] text-[#D9D9D9E5] "
+          >
+            See more
+          </Link>
+        </div>
         <div className="flex items-center overflow-x-auto space-x-4 hidden-scroll mb-12 pl-8">
           <MusicCard
             img={MadeInNaija}
