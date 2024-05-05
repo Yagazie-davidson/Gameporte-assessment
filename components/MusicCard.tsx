@@ -22,8 +22,8 @@ const MusicCard = ({
         </div>
       </div>
       <div className={`${linearGradBottom} px-[22px]`}>
-        <h3 className="font-bold text-base">{title}</h3>
-        <p className="text-[10px] font-medium">
+        <h3 className="font-bold text-base pt-[12.56px]">{title}</h3>
+        <p className="text-[10px] font-medium pb-[8.35px]">
           {artists.map((artist, index) => {
             return (
               <span key={index}>
