@@ -7,7 +7,7 @@ import {
 import Link from "next/link";
 const BottomNav = () => {
   return (
-    <div className="md:hidden fixed tie-background bottom-0 w-full flex justify-center items-center space-x-[74.73px] py-[37px]">
+    <div className="md:hidden fixed tie-background bottom-0 w-full flex justify-center items-center space-x-[74.73px] py-[37px] bg-black z-50">
       <Link href="">
         <HomeIcon width={25} height={29} />
       </Link>
